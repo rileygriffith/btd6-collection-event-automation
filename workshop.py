@@ -69,3 +69,6 @@ def playMap():
     direct.press(',') # White hot spikes upgrade
     for i in range(115): # AFK Till win
         auto.click(1500, 952)
+
+if __name__ == "__main__":
+    playMap()
