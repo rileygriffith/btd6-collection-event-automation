@@ -46,5 +46,5 @@ def playMap():
     for i in range(115): # AFK Till win
         auto.click(1500, 952)
 
-time.sleep(2)
-print(auto.position())
+if __name__ == "__main__":
+    playMap()

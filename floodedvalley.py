@@ -40,3 +40,6 @@ def playMap():
     direct.press(',') # Destroyer
     for i in range(110): # AFK Till win
         auto.click(1500, 952)
+
+if __name__ == "__main__":
+    playMap()

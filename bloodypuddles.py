@@ -77,3 +77,6 @@ def playMap():
     direct.press(',') # Double shot
     for i in range(90): # AFK Till win
         auto.click(1500, 952)
+
+if __name__ == "__main__":
+    playMap()

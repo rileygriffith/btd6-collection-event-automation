@@ -68,3 +68,6 @@ def playMap():
 
     for i in range(30): # AFK Till win
         auto.click(1500, 952)
+
+if __name__ == "__main__":
+    playMap()

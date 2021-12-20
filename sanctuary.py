@@ -48,3 +48,6 @@ def playMap():
     direct.press(',') # Large Calibre
     for i in range(80): # AFK Till win
         auto.click(1500, 952)
+
+if __name__ == "__main__":
+    playMap()
